@@ -1,0 +1,71 @@
+body {
+  background: #E6EEF8; /* pastel light blue */
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #4A6FA5, #6C91C2);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 0%;
+  object-fit: cover;
+  border: 5px solid #fff;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #DCE8F7; /* soft light blue highlight */
+}
+
+/* Section styling */
+.section {
+  background: #fff;
+  margin: 30px auto;
+  padding: 40px 20px;
+  border-radius: 15px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.section h2 {
+  color: #4A6FA5; /* blue accent */
+  margin-bottom: 15px;
+}
+
+/* Skills pills */
+.skills-list li {
+  
+  background: #DCE8F7; /* pastel blue-gray */
+  color: #4A6FA5;
+  padding: 10px 18px;
+  border-radius: 25px;
+  margin: 5px;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.05);
+  background: #C7DAF2; /* darker pastel blue */
+}
+
+/* Footer */
+footer {
+  background: #4A6FA5;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  border-top: 2px solid #6C91C2;
+}
